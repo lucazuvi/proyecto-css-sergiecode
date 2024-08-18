@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    margin: 15px;
+    padding: 15px;
+    width: 25vw;
+    border: 5px solid black;
+    height: 25vw;
+}
+
+.plano{
+    background-color: aqua ;
+}
+.gradiente{
+    background: linear-gradient(to left, blue, yellow)
+}
+
+.imagen{
+    background-image: url(/assets/img/eddievh3.jpg);
+}
+
+h5{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
